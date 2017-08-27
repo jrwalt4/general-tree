@@ -1,0 +1,32 @@
+{
+  "name": "general-tree",
+  "version": "1.0.0",
+  "description": "Javascript General Tree Data Structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./node_modules/jasmine/bin/jasmine.js ./src/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrwalt4/general-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrwalt4/general-tree/issues"
+  },
+  "homepage": "https://github.com/jrwalt4/general-tree#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "jasmine": "^2.8.0",
+    "ts-node": "^3.3.0",
+    "tslint": ">5.0.0",
+    "tslint-microsoft-contrib": "^5.0.1",
+    "typescript": ">2.3.0"
+  },
+  "dependencies": {
+    "@types/cuid": "^1.3.0",
+    "cuid": "^1.3.8"
+  }
+}

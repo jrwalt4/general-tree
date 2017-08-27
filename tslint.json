@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-microsoft-contrib"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-relative-imports": [
+            false
+        ]
+    },
+    "rulesDirectory": [
+        "tslint-microsoft-contrib"
+    ]
+}
